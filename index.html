@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library MS</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script type="text/javascript" src="./lib/jquery-3.7.1.js"></script>
+    <script src="library.js"></script>
+</head>
+<body>
+    <h1>Welcome to the Library Management System!</h1>
+
+    <div class="searchArea">
+        <button class="createBook" onclick="createBook()">Create book</button>
+        <button class="readBook" onclick="readBook()">Find book</button>
+        <button class="updateBook" onclick="updateBook()">Update title</button>
+        <button class="deleteBook" onclick="deleteBook()">Delete book</button>
+
+        <br>
+        <br>
+
+        <label for="search">Book Name:</label>
+        <input type="text" class="bookName" name="book" />
+        <button class="findBooks" onclick="getBooks()">Find books</button>
+    </div>
+
+    <br>
+    
+    <div class="bookArea">
+        <h2>Book List</h2>
+        <div class="bookList"></div>
+    </div>
+
+    <br>
+
+    <div class="updateArea">
+        <h2>Updates</h2>
+        <div class="recentUpdate"></div>
+    </div>
+</body>
+</html>

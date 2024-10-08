@@ -1,0 +1,30 @@
+h1 {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.deleteBook {
+    color: white;
+    background-color: red;
+}
+
+html {
+    background-color: blanchedalmond;
+}
+
+.searchArea .bookArea .updateArea{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bookArea {
+    text-align: center;
+}
+
+.searchArea {
+    text-align: right;
+}
+
+.updateArea {
+    text-align: right;
+}
